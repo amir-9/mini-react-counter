@@ -1,10 +1,10 @@
 import "./App.css";
-import Movies from "./components/Movies";
+import Counters from "./components/Counters";
 
 function App() {
   return (
     <main className="container">
-      <Movies />
+      <Counters />
     </main>
   );
 }

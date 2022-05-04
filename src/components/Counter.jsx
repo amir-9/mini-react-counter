@@ -6,7 +6,7 @@ class Counter extends Component {
   };
   render() {
     return (
-      <React.Fragment>
+      <div>
         <span className={this.getBadgeClasses()}>{this.numberHandler()}</span>
         <button
           onClick={() => {
@@ -16,7 +16,7 @@ class Counter extends Component {
         >
           +
         </button>
-      </React.Fragment>
+      </div>
     );
   }
   getBadgeClasses() {
